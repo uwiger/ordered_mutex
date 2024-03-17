@@ -1,0 +1,29 @@
+%% -*- mode: erlang; indent-tabs-mode: nil; -*-
+%%---- BEGIN COPYRIGHT -------------------------------------------------------
+%%
+%% Copyright (C) 2013 Ulf Wiger. All rights reserved.
+%%
+%% This Source Code Form is subject to the terms of the Mozilla Public
+%% License, v. 2.0. If a copy of the MPL was not distributed with this
+%% file, You can obtain one at http://mozilla.org/MPL/2.0/.
+%%
+%%---- END COPYRIGHT ---------------------------------------------------------
+%% Key contributor: Thomas Arts <thomas.arts@quviq.com>
+%%
+%%=============================================================================
+{application, mutex,
+ [
+  {description, "A gen_server-based lightweight mutex library"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mutex_app, []}},
+  {env, []},
+
+  {maintainers, ["Ulf Wiger"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/uwiger/mutex"}]}
+ ]}.
