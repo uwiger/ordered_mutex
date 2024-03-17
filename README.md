@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/uwiger/mutex/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/uwiger/mutex/actions/workflows/ci.yml)
+
 # mutex
 A gen_server-based lightweight mutex library
 
