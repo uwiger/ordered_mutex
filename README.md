@@ -1,13 +1,13 @@
-[![Build Status](https://github.com/uwiger/mutex/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/uwiger/mutex/actions/workflows/ci.yml)
+[![Build Status](https://github.com/uwiger/ordered_mutex/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/uwiger/ordered_mutex/actions/workflows/ci.yml)
 
-# mutex
+# ordered_mutex
 A gen_server-based lightweight mutex library
 
 This library implements a very lightweight, order-preserving 'mutex'.
 
 The API is:
 
-`mutex:do(Resource:: any(), Fun :: function() -> any()`
+`ordmutex:do(Resource:: any(), Fun :: function() -> any()`
 
 The caller may use any resource key to identify the critical section.
 As soon as there are no clients in the queue for a resource, that

@@ -11,7 +11,7 @@
 %% Key contributor: Thomas Arts <thomas.arts@quviq.com>
 %%
 %%=============================================================================
-{application, mutex,
+{application, ordered_mutex,
  [
   {description, "A gen_server-based lightweight mutex library"},
   {vsn, git},
@@ -25,5 +25,5 @@
 
   {maintainers, ["Ulf Wiger"]},
   {licenses, ["Apache 2.0"]},
-  {links, [{"Github", "https://github.com/uwiger/erlang-mutex"}]}
+  {links, [{"Github", "https://github.com/uwiger/ordered_mutex"}]}
  ]}.
