@@ -1,0 +1,17 @@
+{name,"ordered_mutex"}.
+{type,app}.
+{modules,[]}.
+{prefix,"om"}.
+{author,"Ulf Wiger"}.
+{desc,"A gen_server-based lightweight mutex library"}.
+{package_id,{"uwiger","ordered_mutex",{0,1,2}}}.
+{deps,[]}.
+{key_name,none}.
+{a_email,"ulf@wiger.net"}.
+{c_email,"ulf@wiger.net"}.
+{copyright,"Ulf Wiger"}.
+{file_exts,[]}.
+{license,"Apache-2.0"}.
+{repo_url,"https://github.com/uwiger/ordered_mutex"}.
+{tags,[]}.
+{ws_url,[]}.
